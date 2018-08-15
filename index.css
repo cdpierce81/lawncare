@@ -1,23 +1,21 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	font-family: Roboto, sans-serif;
 }
 
 body {
-	background-color: lightgreen;
-	font-family: Roboto, sans-serif;
-	display: block;
-	line-height: 1.6;
+	padding-bottom: 50px;
 }
 
-header {
+.header {
 	padding: 10px;
-	text-align: center;
-	border: 5px outset green;
 	border-radius: 5px;
-	box-shadow: 15px 5px;
+	box-shadow: 15px 5px 5px;
 }
 
 h1 {
+	text-align: center;
 	font-family: Roboto Condensed, sans-serif;	
 	font-variant: small-caps;
 	font-size: 50px;
@@ -27,22 +25,26 @@ h3 {
     font-weight: bold;
 }
 
-.body {
+div.image img {
+	margin: auto;
 	padding: 50px;
-	text-align: center;
+	width: 100%;
 }
 
 .about {
 	margin: auto;
 	padding: 50px;
-	width: 75%;
+	line-height: 1.5;
 }
 
 .contact {
-	margin: auto;
+	background-color: lightgreen;
+	text-align: center;
+	margin: auto 20px;
 	padding: 25px;
 	border: 5px ridge;
-	width: 50%;
+	box-shadow: 0px 20px 10px;
+	line-height: 1.5;
 }
 
 footer {
@@ -75,7 +77,7 @@ a:-webkit-any-link {
 }
 
 .media {
-	padding-top: 5px;
+	padding-top: 20px;
 	text-align: center;
 }
 
@@ -139,5 +141,4 @@ a:-webkit-any-link {
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
 }
-
 
